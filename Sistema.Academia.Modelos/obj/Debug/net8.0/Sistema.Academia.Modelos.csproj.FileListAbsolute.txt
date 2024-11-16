@@ -1,0 +1,22 @@
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\bin\Debug\net8.0\Sistema.Academia.Modelos.deps.json
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\bin\Debug\net8.0\Sistema.Academia.Modelos.dll
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\bin\Debug\net8.0\Sistema.Academia.Modelos.pdb
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.AssemblyInfoInputs.cache
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.AssemblyInfo.cs
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.dll
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\refint\Sistema.Academia.Modelos.dll
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.pdb
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\ref\Sistema.Academia.Modelos.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\bin\Debug\net8.0\Sistema.Academia.Modelos.deps.json
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\bin\Debug\net8.0\Sistema.Academia.Modelos.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\bin\Debug\net8.0\Sistema.Academia.Modelos.pdb
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.AssemblyInfoInputs.cache
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.AssemblyInfo.cs
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\refint\Sistema.Academia.Modelos.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.pdb
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\ref\Sistema.Academia.Modelos.dll

@@ -1,0 +1,14 @@
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.exe
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.deps.json
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.runtimeconfig.json
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.dll
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.pdb
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.AssemblyInfoInputs.cache
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.AssemblyInfo.cs
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.dll
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\refint\Sistema.Academia.dll
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.pdb
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.genruntimeconfig.cache
+C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\ref\Sistema.Academia.dll

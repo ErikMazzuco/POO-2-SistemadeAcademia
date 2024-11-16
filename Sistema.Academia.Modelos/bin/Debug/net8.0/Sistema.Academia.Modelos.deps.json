@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sistema.Academia.Modelos/1.0.0": {
+        "runtime": {
+          "Sistema.Academia.Modelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sistema.Academia.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
