@@ -18,12 +18,67 @@
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
 
+                <VerticalStackLayout Padding="30" Spacing="25">
+                    <Label
+                 Text="Cadastros"
+                 HorizontalOptions="Center"
+                    FontSize="20"
+                    TextColor="grey"
+                 />
             <Button
                 Text="Cadastrar Aluno"
                 Clicked="Button_Clicked"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                BackgroundColor="red"
                 
                 />
+
+                <Button
+                Text="Cadastrar Atendente"
+                Clicked="Button_Clicked2"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                BackgroundColor="red"
+                />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Padding="30" Spacing="25">
+
+                    <Label
+                 Text="Outra opçao"
+                 HorizontalOptions="Center"
+                    FontSize="20"
+                    TextColor="grey"
+                 />
+
+                    <Button
+                Text="Consulta"
+                Clicked="Button_Clicked2"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                BackgroundColor="green"
+                />
+
+                <Button
+                Text="Consulta"
+                Clicked="Button_Clicked2"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                BackgroundColor="green"
+                />
+
+
+
+            </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

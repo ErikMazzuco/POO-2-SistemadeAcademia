@@ -20,3 +20,4 @@ C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\
 C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\refint\Sistema.Academia.Modelos.dll
 C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.pdb
 C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\ref\Sistema.Academia.Modelos.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia.Modelos\obj\Debug\net8.0\Sistema.Academia.Modelos.sourcelink.json

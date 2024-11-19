@@ -21,6 +21,12 @@ public partial class MainPage : ContentPage
     }
 
 
+  private async void Button_Clicked2(object sender, EventArgs e)
+    {
+
+		await Navigation.PushAsync(new Cadastrar_Atendente());
+    }
+
 
 
 
