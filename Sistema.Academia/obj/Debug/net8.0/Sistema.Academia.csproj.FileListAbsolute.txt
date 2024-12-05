@@ -12,3 +12,18 @@ C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\refint\Sis
 C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.pdb
 C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.genruntimeconfig.cache
 C:\Users\guilh\Desktop\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\ref\Sistema.Academia.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.exe
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.deps.json
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.runtimeconfig.json
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\bin\Debug\net8.0\Sistema.Academia.pdb
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.AssemblyInfoInputs.cache
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.AssemblyInfo.cs
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.csproj.CoreCompileInputs.cache
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.sourcelink.json
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\refint\Sistema.Academia.dll
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.pdb
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\Sistema.Academia.genruntimeconfig.cache
+C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\Sistema.Academia\obj\Debug\net8.0\ref\Sistema.Academia.dll

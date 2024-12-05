@@ -27,6 +27,23 @@ public partial class MainPage : ContentPage
 		await Navigation.PushAsync(new Cadastrar_Atendente());
     }
 
+    private async void Busca_alunos(object sender, EventArgs e)
+    {
+
+        await Navigation.PushAsync(new BuscaAluno());
+    }
+    private async void Busca_atendente(object sender, EventArgs e)
+    {
+
+        await Navigation.PushAsync(new BuscaAtendente());
+    }
+
+        private async void GerenciamentoFicha(object sender, EventArgs e)
+    {
+
+        await Navigation.PushAsync(new GerenciamentoFichaTreino());
+    }
+
 
 
 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebApp.BuscaAtendente"
+             Title="BuscaAtendente">
+    <VerticalStackLayout Padding="30" Spacing="25">
+
+
+
+        <Label
+            Text="BUSCAR ATENDENTES CADASTRADOS"
+            FontSize="25"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button
+                Text="Atualizar"
+                Clicked="AtualizarAtendente"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                BackgroundColor="Red"
+                />
+
+
+
+       
+              
+
+                    
+                    <StackLayout Padding="10">
+                    <ListView x:Name="AtendentesListView" HasUnevenRows="True" SelectionMode="None">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame CornerRadius="15" 
+                                        Padding="10"
+                                        Margin="5"
+                                        BorderColor="Black"
+                                        HasShadow="True"
+                                         VerticalOptions="Center" >
+                                        <StackLayout Orientation="Vertical">
+                                           
+                                            <Label VerticalOptions="Center" Text="{Binding Nome}" 
+                                                FontAttributes="Bold" 
+                                                FontSize="18" 
+                                                TextColor="#FFFD0000" />
+
+
+                                            <HorizontalStackLayout>
+                                                    <Label Text="IDADE: "></Label>
+                                                    <Label Text="{Binding Idade}" 
+                                                                    FontSize="14" 
+                                                                    TextColor="Gray" />
+                                            </HorizontalStackLayout>
+
+                                            <HorizontalStackLayout>
+                                                    <Label Text="CPF: "></Label>
+                                            <Label Text="{Binding Cpf}" 
+                                                FontSize="14" 
+                                                TextColor="Gray" />
+                                            </HorizontalStackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    </StackLayout>
+               
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

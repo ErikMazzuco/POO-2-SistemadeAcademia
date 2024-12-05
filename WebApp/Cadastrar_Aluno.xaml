@@ -50,7 +50,7 @@
 
 
                  <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
-                    <Button  Text="CADASTRAR" Clicked="Button_Clicked"
+                    <Button  Text="CADASTRAR" Clicked="cadastrarAluno"
                         BackgroundColor="Green" 
                         TextColor="White"
                         CornerRadius="10"

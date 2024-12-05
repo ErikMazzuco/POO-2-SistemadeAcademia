@@ -31,6 +31,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = WebApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/BuscaAluno.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WebApp.BuscaAluno.xaml
+build_metadata.AdditionalFiles.TargetPath = BuscaAluno.xaml
+build_metadata.AdditionalFiles.RelativePath = BuscaAluno.xaml
+
+[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/BuscaAtendente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WebApp.BuscaAtendente.xaml
+build_metadata.AdditionalFiles.TargetPath = BuscaAtendente.xaml
+build_metadata.AdditionalFiles.RelativePath = BuscaAtendente.xaml
+
 [C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/Cadastrar_Aluno.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Cadastrar_Aluno.xaml
@@ -42,6 +54,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Cadastrar_Atendente.xaml
 build_metadata.AdditionalFiles.TargetPath = Cadastrar_Atendente.xaml
 build_metadata.AdditionalFiles.RelativePath = Cadastrar_Atendente.xaml
+
+[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/GerenciamentoFichaTreino.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WebApp.GerenciamentoFichaTreino.xaml
+build_metadata.AdditionalFiles.TargetPath = GerenciamentoFichaTreino.xaml
+build_metadata.AdditionalFiles.RelativePath = GerenciamentoFichaTreino.xaml
 
 [C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/LoginPageUser.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

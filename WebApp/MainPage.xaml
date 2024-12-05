@@ -22,7 +22,7 @@
 
                 <VerticalStackLayout Padding="30" Spacing="25">
                     <Label
-                 Text="Cadastros"
+                 Text="CADASTROS"
                  HorizontalOptions="Center"
                     FontSize="20"
                     TextColor="grey"
@@ -49,23 +49,23 @@
             <VerticalStackLayout Padding="30" Spacing="25">
 
                     <Label
-                 Text="Outra opçao"
+                 Text="CONSULTA"
                  HorizontalOptions="Center"
                     FontSize="20"
                     TextColor="grey"
                  />
 
                     <Button
-                Text="Consulta"
-                Clicked="Button_Clicked2"
+                Text="Buscar Alunos"
+                Clicked="Busca_alunos"
                 HorizontalOptions="Center"
                 WidthRequest="250"
                 BackgroundColor="green"
                 />
 
                 <Button
-                Text="Consulta"
-                Clicked="Button_Clicked2"
+                Text="Buscar Atendentes"
+                Clicked="Busca_atendente"
                 HorizontalOptions="Center"
                 WidthRequest="250"
                 BackgroundColor="green"
@@ -78,7 +78,13 @@
             </HorizontalStackLayout>
 
 
-
+                <Button
+                Text="Gereneciamento de Ficha"
+                Clicked="GerenciamentoFicha"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                BackgroundColor="blue"
+                />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

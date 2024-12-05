@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebApp.GerenciamentoFichaTreino"
+             Title="GerenciamentoFichaTreino">
+    <VerticalStackLayout Spacing="20" Padding="20">
+<HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+
+
+
+                         <Button  Text="CADASTRAR FICHA" Clicked="CadastrarFichaTreino"
+                        BackgroundColor="Green" 
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="Center" />
+
+                        <Button Text="EDITAR" Clicked="EditFichaTreino"
+                        BackgroundColor="blue" 
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="Center" />
+
+                        <Button Text="EXCLUIR" Clicked="ExcluirFuchatreino"
+                        BackgroundColor="Red" 
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="Center" />
+                        
+
+                </HorizontalStackLayout>
+
+
+
+
+
+
+
+
+
+
+                
+    </VerticalStackLayout>
+</ContentPage>

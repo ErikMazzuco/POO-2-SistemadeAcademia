@@ -6,44 +6,54 @@
 
 
     
-        <VerticalStackLayout Padding="30" Spacing="25">
-
-            <Label
-                HorizontalOptions="Center" 
-                TextColor="red"
-                Text="Fazer Login"
-                FontSize="40"
-         />
-
-
-        <StackLayout Spacing="2" WidthRequest="400">
-                <Label TextColor="red" Text ="E-mail"/>
-                <Entry  BackgroundColor="#FF333333" Placeholder="Digite Email para login"/>
-        </StackLayout>
-        <StackLayout Spacing="2" WidthRequest="400">
-                <Label TextColor="red" Text ="Senha"/>
-                <Entry  BackgroundColor="#FF333333" Placeholder="Digite Senha para login"/>
-        </StackLayout>
-
-
-
+    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center" >
 
         
+                <VerticalStackLayout Spacing="-5" Padding="50" >
+                    <Label
+                            HorizontalOptions="Center" 
+                            TextColor="red"
+                            Text="Fazer Login"
+                            FontSize="40"
+                    />
 
-        <Button  Text="LOGAR" Clicked="Button_Clicked"
-            BackgroundColor="Red" 
-            TextColor="White"
-            CornerRadius="10"
-            HorizontalOptions="Center" 
-        />
-        
+                    <Label
+                            HorizontalOptions="Center" 
+                            TextColor="Gray"
+                            Text="Sistema de Academia! 🏋️‍♂️"
+                            FontSize="15"
+                    />
+            </VerticalStackLayout>
 
-         <Label
+
+            <StackLayout Spacing="2" WidthRequest="400">
+                    <Label TextColor="red" Text ="USUÁRIO:"/>
+                    <Entry  x:Name="UsernameEntry" BackgroundColor="#FF333333" Placeholder="Digite o nomde de usuário"/>
+            </StackLayout>
+            <StackLayout Spacing="2" WidthRequest="400">
+                    <Label TextColor="red" Text ="SENHA:"/>
+                    <Entry x:Name="PasswordEntry"  BackgroundColor="#FF333333" Placeholder="Digite Senha para login"/>
+            </StackLayout>
+
+
+
+            <Button  Text="LOGAR" Clicked="Button_Clicked"
+                BackgroundColor="Red" 
+                TextColor="White"
+                CornerRadius="10"
                 HorizontalOptions="Center" 
-                Text="Esqueceu Senha? Clique aqui"
-                FontSize="15"
-         />
+            />
+            
+            
+                <Label 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"
+                    Text="Esqueceu Senha? Clique aqui"
+                    FontSize="15"
+            />
+            
+    </VerticalStackLayout>  
 
 
-    </VerticalStackLayout>
+
 </ContentPage>
