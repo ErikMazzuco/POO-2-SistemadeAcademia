@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8l0rB10Z/tk=",
+  "dgSpecHash": "70egTd3QT0g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\erikm\\Downloads\\Trabalho Poo\\Trabalho Poo\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Users\\erikm\\OneDrive\\Documentos\\GitHub\\POO-2-SistemadeAcademia\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erikm\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\erikm\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
@@ -132,7 +132,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'SQLite.Net-PCL 3.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-ios18.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'SQLite.Net-PCL 3.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-ios18.0'. This package may not be fully compatible with your project.",
       "libraryId": "SQLite.Net-PCL",
       "targetGraphs": [
         "net8.0-ios18.0"
@@ -142,7 +142,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'SQLite.Net.Core-PCL 3.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-ios18.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'SQLite.Net.Core-PCL 3.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-ios18.0'. This package may not be fully compatible with your project.",
       "libraryId": "SQLite.Net.Core-PCL",
       "targetGraphs": [
         "net8.0-ios18.0"

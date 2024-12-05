@@ -12,71 +12,71 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\erikm\Downloads\Trabalho Poo\Trabalho Poo\WebApp\
+build_property.ProjectDir = C:\Users\erikm\OneDrive\Documentos\GitHub\POO-2-SistemadeAcademia\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/App.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/AppShell.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/BuscaAluno.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/BuscaAluno.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.BuscaAluno.xaml
 build_metadata.AdditionalFiles.TargetPath = BuscaAluno.xaml
 build_metadata.AdditionalFiles.RelativePath = BuscaAluno.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/BuscaAtendente.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/BuscaAtendente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.BuscaAtendente.xaml
 build_metadata.AdditionalFiles.TargetPath = BuscaAtendente.xaml
 build_metadata.AdditionalFiles.RelativePath = BuscaAtendente.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/Cadastrar_Aluno.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/Cadastrar_Aluno.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Cadastrar_Aluno.xaml
 build_metadata.AdditionalFiles.TargetPath = Cadastrar_Aluno.xaml
 build_metadata.AdditionalFiles.RelativePath = Cadastrar_Aluno.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/Cadastrar_Atendente.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/Cadastrar_Atendente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Cadastrar_Atendente.xaml
 build_metadata.AdditionalFiles.TargetPath = Cadastrar_Atendente.xaml
 build_metadata.AdditionalFiles.RelativePath = Cadastrar_Atendente.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/GerenciamentoFichaTreino.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/GerenciamentoFichaTreino.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.GerenciamentoFichaTreino.xaml
 build_metadata.AdditionalFiles.TargetPath = GerenciamentoFichaTreino.xaml
 build_metadata.AdditionalFiles.RelativePath = GerenciamentoFichaTreino.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/LoginPageUser.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/LoginPageUser.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.LoginPageUser.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginPageUser.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginPageUser.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/MainPage.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/Resources/Styles/Colors.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/erikm/Downloads/Trabalho Poo/Trabalho Poo/WebApp/Resources/Styles/Styles.xaml]
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
