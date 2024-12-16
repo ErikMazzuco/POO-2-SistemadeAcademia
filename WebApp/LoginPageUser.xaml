@@ -6,7 +6,7 @@
 
 
     
-    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center" >
+    <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center" >
 
         
                 <VerticalStackLayout Spacing="-5" Padding="50" >
@@ -36,15 +36,26 @@
             </StackLayout>
 
 
+             <HorizontalStackLayout HorizontalOptions="Center"  Spacing="20" VerticalOptions="Center" >
+
 
             <Button  Text="LOGAR" Clicked="Button_Clicked"
                 BackgroundColor="Red" 
                 TextColor="White"
-                CornerRadius="10"
+                CornerRadius="20"
+                HorizontalOptions="Center" 
+            />
+
+
+
+            <Button  Text="CADASTRAR" Clicked="Criar_Conta"
+                BackgroundColor="#FF3700FF" 
+                TextColor="White"
+                CornerRadius="20"
                 HorizontalOptions="Center" 
             />
             
-            
+            </HorizontalStackLayout>
                 <Label 
                     HorizontalOptions="Center" 
                     VerticalOptions="Center"

@@ -12,7 +12,7 @@ public partial class GerenciamentoFichaTreino : ContentPage
 	private async void CadastrarFichaTreino(object sender, EventArgs e)
     {
 
-
+		await Navigation.PushAsync(new Cadastra_Ficha());
 
 
 	}

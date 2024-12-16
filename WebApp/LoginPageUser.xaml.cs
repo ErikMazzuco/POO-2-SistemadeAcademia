@@ -9,22 +9,35 @@ public partial class LoginPageUser : ContentPage
 		 NavigationPage.SetHasNavigationBar(this, false);
 	}
 
-     private async void Button_Clicked(object sender, EventArgs e)
-        {
-            // Obtenha os valores inseridos
-            string username = UsernameEntry.Text;
-            string password = PasswordEntry.Text;
+    
 
-            // Verifique os dados (use o banco de dados ou um valor fixo para teste)
-            if (username == "admin" && password == "1234") // Exemplo de validação fixa
-            {
-                //DisplayAlert("Sucesso", "Login realizado com sucesso!", "OK");
-				await Navigation.PushAsync(new MainPage());
-                // Navegue para outra página ou abra o sistema principal
-            }
-            else
-            {
-                DisplayAlert("Erro", "Usuário ou senha inválidos.", "OK");
-            }
+        private async void Button_Clicked(object sender, EventArgs e)
+                        {
+                            // Obtenha os valores inseridos pelo usuário
+                            string username = UsernameEntry.Text;
+                            string password = PasswordEntry.Text;
+
+                            // Obtenha a lista de usuários cadastrados no banco
+                            var usuarios = DatabaseHelper.GetAllusers();
+
+                            // Verifique se há algum usuário com o nome e a senha informados
+                            var usuarioValido = usuarios.FirstOrDefault(u => u.User == username && u.Senha == password);
+
+                            if (usuarioValido != null)
+                            {
+                                // Usuário encontrado, faça o login
+                                //await DisplayAlert("Sucesso", "Login realizado com sucesso!", "OK");
+                                await Navigation.PushAsync(new MainPage());
+                            }
+                            else
+                            {
+                                // Usuário ou senha inválidos
+                                await DisplayAlert("Erro", "Usuário ou senha inválidos.", "OK");
+                            }
+        }
+
+        private async void Criar_Conta(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Cadastrar_Usuario());
         }
 }

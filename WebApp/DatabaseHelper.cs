@@ -27,8 +27,9 @@ public static class DatabaseHelper
             _database.CreateTable<Exercicio>();
             _database.CreateTable<FichaTreino>();
             _database.CreateTable<Mensalidade>();
+            _database.CreateTable<Usuario>();
         }
-
+            
         return _database;
     }
 
@@ -74,4 +75,24 @@ public static class DatabaseHelper
         var database = GetDatabase();
         return database.Table<FichaTreino>().ToList();
     }
+
+
+
+//------------------------USER----------------------
+public static void Insertuser(Usuario user)
+    {
+        var database = GetDatabase();
+        database.Insert(user);
+    }
+    public static List<Usuario> GetAllusers()
+    {
+        var database = GetDatabase();
+        return database.Table<Usuario>().ToList();
+    }
+
+//------------------------------------------------------
+
+
+
+
 }
