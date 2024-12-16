@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WebApp.BuscaAluno"
              Title="BuscaAluno">
-
+<ScrollView>
     <VerticalStackLayout Padding="30" Spacing="25">
 
 
@@ -30,6 +30,9 @@
                     
                     <StackLayout Padding="10">
                     <ListView x:Name="AlunosListView" HasUnevenRows="True" SelectionMode="None">
+
+                        
+
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
@@ -39,7 +42,9 @@
                                         BorderColor="Black"
                                         HasShadow="True"
                                          VerticalOptions="Center" >
+
                                         <StackLayout Orientation="Vertical">
+
                                            
                                             <Label VerticalOptions="Center" Text="{Binding Nome}" 
                                                 FontAttributes="Bold" 
@@ -59,12 +64,36 @@
                                             <Label Text="{Binding Cpf}" 
                                                 FontSize="14" 
                                                 TextColor="Gray" />
+
+                                                
+
+                                            </HorizontalStackLayout>
+                                            <HorizontalStackLayout>
+                                            <Label Text="ID: "></Label>
+                                            <Label TextColor="Green" Text="{Binding Id}"/>
+                                            </HorizontalStackLayout>
+
+
+                                            <HorizontalStackLayout Spacing="5" HorizontalOptions="End">
+                                            <Button VerticalOptions="End" WidthRequest="100" Text="EXCLUIR" CornerRadius="20" Background="red"  Clicked="ExcluirAluno"/>
+                                             <Button VerticalOptions="End" WidthRequest="100" Text="EDITAR" CornerRadius="20" Background="#0000FF"  />
                                             </HorizontalStackLayout>
                                         </StackLayout>
+
+                                        
+
+
+                                                
+
+
+                                        
+
                                     </Frame>
                                 </ViewCell>
                             </DataTemplate>
                         </ListView.ItemTemplate>
+
+
                     </ListView>
                     </StackLayout>
                
@@ -73,4 +102,6 @@
 
 
     </VerticalStackLayout>
+    
+    </ScrollView>
 </ContentPage>

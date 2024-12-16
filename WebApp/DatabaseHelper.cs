@@ -47,6 +47,25 @@ public static class DatabaseHelper
         return database.Table<Aluno>().ToList();
     }
 
+public static void DeleteAluno(int id)
+{
+    try
+    {
+        // Obtém a conexão existente com o banco de dados
+        var db = GetDatabase();
+
+        // Deleta o aluno com o ID especificado
+        db.Execute("DELETE FROM Aluno WHERE Id = ?", id);
+    }
+    catch (Exception ex)
+    {
+        // Log ou tratamento de erro, se necessário
+        Console.WriteLine($"Erro ao excluir aluno: {ex.Message}");
+        throw;
+    }
+}
+
+
 ///----------------------------------------------------
 
 

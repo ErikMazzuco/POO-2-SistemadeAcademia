@@ -9,7 +9,11 @@ public partial class BuscaAluno : ContentPage
 		CarregarAlunos();
 		 this.Title = "";
 		 NavigationPage.SetHasNavigationBar(this, false);
+         
 	}
+
+
+
 
 
 
@@ -46,5 +50,25 @@ private void CarregarAlunos()
     }
 }
 
+
+
+    
+            private void ExcluirAluno(object sender, EventArgs e)
+{
+    var button = (Button)sender; // O botão que foi clicado
+    var aluno = (Aluno)button.BindingContext; // Objeto aluno no contexto
+    var id = aluno.Id; // Obtenha o ID
+
+    // Chame a função para excluir o aluno
+    DatabaseHelper.DeleteAluno(id);
+
+    // Exiba a mensagem
+    DisplayAlert("Sucesso", $"Aluno com ID {id} excluído com sucesso!", "OK");
+    
+   CarregarAlunos();
+
+
+    // Atualize a interface, como recarregar a lista de alunos
 }
 
+}

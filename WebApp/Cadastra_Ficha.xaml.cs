@@ -15,18 +15,18 @@ public partial class Cadastra_Ficha : ContentPage
 private void ButtonCadastra_Ficha(object sender, EventArgs e)
 {
     var desc = DescEntry.Text.ToUpper();
-	var data = DateTime.Now.Date
+	var data = DateTime.Now.Date;
 
     var ficha = new FichaTreino
     {
 
         Descricao = desc,
-		DataCriacao = data;
+		DataCriacao = data
    
     };
 
     // Inserir o aluno no banco
-    DatabaseHelper.Insertficha(ficha);
+    DatabaseHelper.InsertFichas(ficha);
 
     // Exibir uma mensagem de sucesso
     DisplayAlert("Sucesso", "Ficha criada!", "OK");
