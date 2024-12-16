@@ -55,7 +55,7 @@ private void CarregarAlunos()
     
             private void ExcluirAluno(object sender, EventArgs e)
 {
-    var button = (Button)sender; // O botão que foi clicado
+    var button = (ImageButton)sender; // O botão que foi clicado
     var aluno = (Aluno)button.BindingContext; // Objeto aluno no contexto
     var id = aluno.Id; // Obtenha o ID
 

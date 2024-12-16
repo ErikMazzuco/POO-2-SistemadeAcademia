@@ -75,8 +75,16 @@
 
 
                                             <HorizontalStackLayout Spacing="5" HorizontalOptions="End">
-                                            <Button VerticalOptions="End" WidthRequest="100" Text="EXCLUIR" CornerRadius="20" Background="red"  Clicked="ExcluirAluno"/>
-                                             <Button VerticalOptions="End" WidthRequest="100" Text="EDITAR" CornerRadius="20" Background="#0000FF"  />
+                                                <!-- APAGAR  -->
+                                            <ImageButton Source="trash.png"  BackgroundColor="Transparent"  VerticalOptions="End" WidthRequest="50" HeightRequest="50" Clicked="ExcluirAluno"/>
+
+                                            
+                                            <!-- EDITAR  -->
+                                            <ImageButton Source="edit.png"  BackgroundColor="Transparent"  VerticalOptions="End" WidthRequest="55" HeightRequest="55"/>
+
+                                             
+
+
                                             </HorizontalStackLayout>
                                         </StackLayout>
 
