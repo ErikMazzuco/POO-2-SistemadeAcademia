@@ -16,7 +16,10 @@ public static class DatabaseHelper
         if (_database == null)
         {
             // Caminho onde o banco de dados será salvo
-            var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Academia.db");
+           // var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Academia.db");
+            
+            var dbPath = Path.Combine(Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName).FullName).FullName).FullName, "BANCO","Academia.db");
+
             
             // Criação da conexão com o banco
             _database = new SQLiteConnection(dbPath);
