@@ -1,9 +1,11 @@
-﻿using System;
+﻿using SQLite;
+using System;
 namespace Modelos
 
 {
     public class Mensalidade
     {
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string Situacao { get; set; }
         public DateTime DataInicio { get; set; }

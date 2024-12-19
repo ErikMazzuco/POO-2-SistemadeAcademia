@@ -10,8 +10,49 @@ public partial class MainPage : ContentPage
 	public MainPage(){
 		InitializeComponent();
 		 this.Title = "";
-		 NavigationPage.SetHasNavigationBar(this, false);
+		 
+         NavigationPage.SetHasNavigationBar(this, false); // Para remover a barra de navegação
+        NavigationPage.SetHasBackButton(this, false); // Para remover a seta de voltar
 	}	
+
+
+
+
+
+protected override async void OnAppearing()
+{
+    base.OnAppearing();
+
+    int loggedUserId = Preferences.Get("LoggedUserId", 0);
+
+    
+
+    if (loggedUserId > 0)
+    {
+        var usuarioLogado = DatabaseHelper.GetUserById(loggedUserId);
+        if (usuarioLogado != null)
+        {
+            NomeUsuarioLabel.Text = $"Bem-vindo, {usuarioLogado.User}";
+        }
+        else
+        {
+            NomeUsuarioLabel.Text = "Usuário não encontrado.";
+        }
+    }
+    else
+    {
+        NomeUsuarioLabel.Text = "Nenhum usuário logado.";
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
     private async void Button_Clicked(object sender, EventArgs e)

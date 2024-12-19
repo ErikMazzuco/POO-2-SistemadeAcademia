@@ -26,8 +26,13 @@ public partial class LoginPageUser : ContentPage
                             if (usuarioValido != null)
                             {
                                 // Usuário encontrado, faça o login
-                                //await DisplayAlert("Sucesso", "Login realizado com sucesso!", "OK");
+
+                                // Salve o ID do usuário logado (exemplo usando Preferences)
+                                    Preferences.Set("LoggedUserId", usuarioValido.Id);
+
+                                
                                 await Navigation.PushAsync(new MainPage());
+
                             }
                             else
                             {

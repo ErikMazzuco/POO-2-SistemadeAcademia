@@ -101,6 +101,15 @@ public static void DeleteAluno(int id)
 
 
 //------------------------USER----------------------
+
+public static Usuario GetUserById(int id)
+{
+   var database = GetDatabase();
+    var usuario = database.Table<Usuario>().FirstOrDefault(u => u.Id == id);
+    return usuario;
+}
+
+
 public static void Insertuser(Usuario user)
     {
         var database = GetDatabase();

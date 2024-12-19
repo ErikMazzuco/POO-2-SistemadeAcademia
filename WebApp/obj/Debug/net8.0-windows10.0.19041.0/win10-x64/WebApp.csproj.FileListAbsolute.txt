@@ -1398,3 +1398,5 @@ C:\Users\erikm\OneDrive\Documentos\GitHub\POO-2-SistemadeAcademia\WebApp\obj\Deb
 C:\Users\erikm\OneDrive\Documentos\GitHub\POO-2-SistemadeAcademia\WebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\trash.scale-100.png
 C:\Users\erikm\OneDrive\Documentos\GitHub\POO-2-SistemadeAcademia\WebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\edit.scale-100.png
 C:\Users\erikm\OneDrive\Documentos\GitHub\POO-2-SistemadeAcademia\WebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-100.png
+C:\Users\erikm\OneDrive\Documentos\GitHub\POO-2-SistemadeAcademia\WebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\user.scale-100.png
+C:\Users\erikm\OneDrive\Documentos\GitHub\POO-2-SistemadeAcademia\WebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png
