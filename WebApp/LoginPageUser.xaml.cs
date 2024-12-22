@@ -6,7 +6,9 @@ public partial class LoginPageUser : ContentPage
 	{
 		InitializeComponent();
 		this.Title = "";
-		 NavigationPage.SetHasNavigationBar(this, false);
+		 
+          NavigationPage.SetHasNavigationBar(this, false); // Para remover a barra de navegação
+        NavigationPage.SetHasBackButton(this, false); // Para remover a seta de voltar
 	}
 
     

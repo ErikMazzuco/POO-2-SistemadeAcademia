@@ -21,7 +21,10 @@ public partial class BuscaAtendente : ContentPage
 }
 
 
-
+private void ExcluirAtendente(object sender, EventArgs e)
+{
+   
+}
 
 	
 

@@ -17,6 +17,19 @@ public partial class MainPage : ContentPage
 
 
 
+       // Alterna a visibilidade do menu
+        private void OnProfileTapped(object sender, EventArgs e)
+        {
+            LogoutMenu.IsVisible = !LogoutMenu.IsVisible;
+        }
+
+        // Redireciona para a página de login
+        private async void OnLogoutClicked(object sender, EventArgs e)
+        {
+            LogoutMenu.IsVisible = false;
+            // Redireciona para a página de login
+            await Navigation.PushAsync(new LoginPageUser());
+        }
 
 
 protected override async void OnAppearing()

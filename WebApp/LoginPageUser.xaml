@@ -59,7 +59,7 @@
                 <Label 
                     HorizontalOptions="Center" 
                     VerticalOptions="Center"
-                    Text="Esqueceu Senha? Clique aqui"
+                    Text="Esqueceu Senha? Clique aqui!"
                     FontSize="15"
             />
             

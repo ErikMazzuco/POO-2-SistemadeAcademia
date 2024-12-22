@@ -34,17 +34,30 @@
 
                 <StackLayout Spacing="2">
                 <Label Text ="IDADE"/>
-                <Entry x:Name="IdadeEntry" BackgroundColor="#FF333333" Placeholder="Digite a idade do Aluno"/>
+                <Entry x:Name="IdadeEntry" Keyboard="Numeric" BackgroundColor="#FF333333" Placeholder="Digite a idade do Aluno"/>
                 </StackLayout>
 
-                <StackLayout Spacing="2">
-                <Label Text ="SEXO"/>
-                <Entry x:Name="SexoEntry" BackgroundColor="#FF333333" Placeholder="Digite Sexo do Aluno"/>
+                
+                
+                <StackLayout  Spacing="2" Orientation="Vertical" >
+                    <Label Text="SELECIONE O SEXO:" TextColor="White"   />
+                    <HorizontalStackLayout BackgroundColor="#FF333333">
+                    <RadioButton x:Name="MasculinoRadioButton" Content="Masculino" GroupName="Sexo" TextColor="White" />
+                    <RadioButton x:Name="FemininoRadioButton" Content="Feminino" GroupName="Sexo" TextColor="White" />
+                    <RadioButton x:Name="OutroRadioButton" Content="Outro" GroupName="Sexo" TextColor="White" />
+                    </HorizontalStackLayout>
                 </StackLayout>
 
                 <StackLayout Spacing="2">
                 <Label Text ="DATA NASCIMENTO"/>
-                <Entry x:Name="NascimentoEntry" BackgroundColor="#FF333333" Placeholder="Digite a Data de Nascimento do Aluno"/>
+
+
+                <DatePicker x:Name="NascimentoDatePicker" 
+                    Format="dd/MM/yyyy" 
+                    BackgroundColor="#FF333333" 
+                    TextColor="White" 
+                    MinimumDate="1900-01-01" />
+
                 </StackLayout>
                 
 

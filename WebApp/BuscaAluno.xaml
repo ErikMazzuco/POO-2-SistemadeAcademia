@@ -14,14 +14,6 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Button
-                Text="Atualizar"
-                Clicked="AtualizarAlunos"
-                HorizontalOptions="Center"
-                WidthRequest="250"
-                BackgroundColor="Red"
-                />
-
 
 
        
@@ -53,8 +45,15 @@
 
 
                                             <HorizontalStackLayout>
-                                                    <Label Text="IDADE: "></Label>
-                                                    <Label Text="{Binding Idade}" 
+                                                    <Label Text="NASCIMENTO: "></Label>
+                                                    <Label Text="{Binding Nascimento}" 
+                                                                    FontSize="14" 
+                                                                    TextColor="Gray" />
+                                            </HorizontalStackLayout>
+
+                                            <HorizontalStackLayout>
+                                                    <Label Text="SEXO: "></Label>
+                                                    <Label Text="{Binding Sexo}" 
                                                                     FontSize="14" 
                                                                     TextColor="Gray" />
                                             </HorizontalStackLayout>
@@ -64,10 +63,9 @@
                                             <Label Text="{Binding Cpf}" 
                                                 FontSize="14" 
                                                 TextColor="Gray" />
-
-                                                
-
                                             </HorizontalStackLayout>
+
+
                                             <HorizontalStackLayout>
                                             <Label Text="ID: "></Label>
                                             <Label TextColor="Green" Text="{Binding Id}"/>

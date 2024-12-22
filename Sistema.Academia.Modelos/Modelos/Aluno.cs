@@ -15,7 +15,7 @@ namespace Sistema.Academia.Modelos
 
         public override string ToString()
         {
-            return $"{Nome}, {Cpf}, {Idade}, {Sexo}, {Nascimento.Date}";
+            return $"{Id},{Nome}, {Cpf}, {Idade}, {Sexo}, {Nascimento.Date}";
         }
     }
 

@@ -12,7 +12,7 @@
         </Grid.RowDefinitions>
 
         <!-- Barra Superior -->
-        <Grid BackgroundColor="DarkBlue" Padding="10"  Row="0">
+        <Grid BackgroundColor="DarkBlue" Padding="10"  Row="0" >
             <!-- Logo e título centralizados -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -29,40 +29,85 @@
                        HorizontalOptions="Center" />
             </HorizontalStackLayout>
 
-            <!-- Nome do Usuário e Imagem de Perfil -->
-            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center" Spacing="10">
-                <Label x:Name="NomeUsuarioLabel"
-                       Text="Carregando..."
-                       FontSize="18"
-                       HorizontalOptions="End" 
-                       VerticalOptions="Center" />
 
-                <!-- Imagem de perfil -->
-                <Frame BackgroundColor="Transparent"
-                       BorderColor="White"
-                       CornerRadius="20"
-                       WidthRequest="40"
-                       HeightRequest="40"
-                       Padding="0"
-                       HorizontalOptions="End"
-                       VerticalOptions="Center">
-                    <Image Source="user.png"
-                           Aspect="AspectFill"
+                <!-- Nome do Usuário e Imagem de Perfil -->
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="End"  VerticalOptions="Center" Spacing="5">
+                <HorizontalStackLayout Spacing="10">
+                    <Label x:Name="NomeUsuarioLabel"
+                           Text="Carregando..."
+                           FontSize="18"
+                           HorizontalOptions="End" 
+                           VerticalOptions="Center" />
+
+                    <!-- Imagem de perfil -->
+                    <Frame BackgroundColor="Transparent"
+                           BorderColor="White"
+                           CornerRadius="20"
                            WidthRequest="40"
-                           HeightRequest="40" />
-                </Frame>
-            </HorizontalStackLayout>
-        </Grid>
+                           HeightRequest="40"
+                           Padding="0"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center">
+                        <Image Source="user.png"
+                               Aspect="AspectFill"
+                               WidthRequest="40"
+                               HeightRequest="40">
+                            <!-- Adiciona evento de clique -->
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnProfileTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                </HorizontalStackLayout>
+
+
+                
+        
+
+                
+                <!-- Botão de logout, inicialmente invisível -->
+                
+            
+        
+    <VerticalStackLayout  x:Name="LogoutMenu" HorizontalOptions="End"
+                        VerticalOptions="End" Padding="4" Spacing="10" IsVisible="False">
+       
+        <Button   Text="✖️ SAIR"
+                        BackgroundColor="Red"
+                        TextColor="White"
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        WidthRequest="110"
+                        ZIndex="20"
+                        
+                        Clicked="OnLogoutClicked" />
+
+        <Button   Text="⚙️ CONFIG"
+                        BackgroundColor="#FF413A3A"
+                        TextColor="White"
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        WidthRequest="110"
+                        ZIndex="20"
+                        
+                        Clicked="OnLogoutClicked" />
+
+    </VerticalStackLayout>
+
+</VerticalStackLayout>
+</Grid>
+
 
         <!-- Conteúdo Principal -->
         <ScrollView Grid.Row="1">
-
-
-
+           
+                 
+               
 
 
         <VerticalStackLayout Padding="30" Spacing="25">
-
+            
+           
             
             <Image
                 Source="dotnet_bot.png"
