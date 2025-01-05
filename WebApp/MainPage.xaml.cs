@@ -66,7 +66,11 @@ protected override async void OnAppearing()
 
 
 
+private async void Cadastrar_Exercicio(object sender, EventArgs e)
+    {
 
+		await Navigation.PushAsync(new Cadastrar_Exercicio());
+    }
 
     private async void Button_Clicked(object sender, EventArgs e)
     {

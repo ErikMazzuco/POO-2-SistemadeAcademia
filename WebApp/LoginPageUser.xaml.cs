@@ -21,7 +21,6 @@ public partial class LoginPageUser : ContentPage
 
                             // Obtenha a lista de usuários cadastrados no banco
                             var usuarios = DatabaseHelper.GetAllusers();
-
                             // Verifique se há algum usuário com o nome e a senha informados
                             var usuarioValido = usuarios.FirstOrDefault(u => u.User == username && u.Senha == password);
 

@@ -31,10 +31,78 @@
 
 
 
+            <!-- aparecer fichas aqui -->
 
 
 
+                                            <StackLayout Padding="10">
+                    <ListView x:Name="FichasListView" HasUnevenRows="True" SelectionMode="None">
 
+                        
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame CornerRadius="15" 
+                                        Padding="10"
+                                        Margin="5"
+                                        BorderColor="Black"
+                                        HasShadow="True"
+                                         VerticalOptions="Center" >
+
+                                        <StackLayout Orientation="Vertical">
+
+                                           
+                                            <Label VerticalOptions="Center" Text="{Binding Descricao}" 
+                                                FontAttributes="Bold" 
+                                                FontSize="18" 
+                                                TextColor="#FFFD0000" />
+
+
+                                            <HorizontalStackLayout>
+                                                    <Label Text="CRIAÇÃO: "></Label>
+                                                    <Label Text="{Binding DataCriacao}" 
+                                                                    FontSize="14" 
+                                                                    TextColor="Gray" />
+                                            </HorizontalStackLayout>
+
+
+                                            <HorizontalStackLayout>
+                                            <Label Text="ID: "></Label>
+                                            <Label TextColor="Green" Text="{Binding Id}"/>
+                                            </HorizontalStackLayout>
+
+
+                                            <HorizontalStackLayout Spacing="5" HorizontalOptions="End">
+                                                <!-- APAGAR  -->
+                                            <ImageButton Source="trash.png"  BackgroundColor="Transparent"  VerticalOptions="End" WidthRequest="50" HeightRequest="50" Clicked="ExcluirFicha"/>
+
+                                            
+                                            <!-- EDITAR  -->
+                                            <ImageButton Source="edit.png"  BackgroundColor="Transparent"  VerticalOptions="End" WidthRequest="55" HeightRequest="55"/>
+
+                                             
+
+
+                                            </HorizontalStackLayout>
+                                        </StackLayout>
+
+                                        
+
+
+                                                
+
+
+                                        
+
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+
+
+                    </ListView>
+                    </StackLayout>
 
 
 

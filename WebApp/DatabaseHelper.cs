@@ -31,6 +31,8 @@ public static class DatabaseHelper
             _database.CreateTable<FichaTreino>();
             _database.CreateTable<Mensalidade>();
             _database.CreateTable<Usuario>();
+            
+            _database.CreateTable<FichaExercicio>();
         }
             
         return _database;
@@ -50,28 +52,28 @@ public static class DatabaseHelper
         return database.Table<Aluno>().ToList();
     }
 
-public static void DeleteAluno(int id)
-{
-    try
+    public static void DeleteAluno(int id)
     {
-        // Obtém a conexão existente com o banco de dados
-        var db = GetDatabase();
+        try
+        {
+            // Obtém a conexão existente com o banco de dados
+            var db = GetDatabase();
 
-        // Deleta o aluno com o ID especificado
-        db.Execute("DELETE FROM Aluno WHERE Id = ?", id);
+            // Deleta o aluno com o ID especificado
+            db.Execute("DELETE FROM Aluno WHERE Id = ?", id);
+        }
+        catch (Exception ex)
+        {
+            // Log ou tratamento de erro, se necessário
+            Console.WriteLine($"Erro ao excluir aluno: {ex.Message}");
+            throw;
+        }
     }
-    catch (Exception ex)
-    {
-        // Log ou tratamento de erro, se necessário
-        Console.WriteLine($"Erro ao excluir aluno: {ex.Message}");
-        throw;
-    }
-}
 
 
 ///----------------------------------------------------
 
-
+///---------------------ATENDENTE------------------
     public static void InsertAtendente(Atendente atendente)
     {
          
@@ -85,8 +87,8 @@ public static void DeleteAluno(int id)
     }
 
 
-
-
+//------------------------------------------------
+//------------FICHAS------------------------------
     public static void InsertFichas(FichaTreino FichaTreino)
     {
         var database = GetDatabase();
@@ -97,6 +99,32 @@ public static void DeleteAluno(int id)
         var database = GetDatabase();
         return database.Table<FichaTreino>().ToList();
     }
+
+    public static void DeleteFicha(int id)
+    {
+        try
+        {
+            // Obtém a conexão existente com o banco de dados
+            var db = GetDatabase();
+
+            // Deleta o aluno com o ID especificado
+            db.Execute("DELETE FROM FichaTreino WHERE Id = ?", id);
+        }
+        catch (Exception ex)
+        {
+            // Log ou tratamento de erro, se necessário
+            Console.WriteLine($"Erro ao excluir Ficha: {ex.Message}");
+            throw;
+        }
+    }
+
+
+    public static FichaTreino GetFichaById(int id)
+{
+   var database = GetDatabase();
+    var Ficha = database.Table<FichaTreino>().FirstOrDefault(u => u.Id == id);
+    return Ficha;
+}
 
 
 
@@ -121,9 +149,20 @@ public static void Insertuser(Usuario user)
         return database.Table<Usuario>().ToList();
     }
 
+
+
+
 //------------------------------------------------------
 
+    public static void InsertExercicio(Exercicio exercicio)
+    {
+         
+        var database = GetDatabase();
+        database.Insert(exercicio);
+    }
+//------EXERCICIOS-----------------------------
 
 
+//------------------------------
 
 }

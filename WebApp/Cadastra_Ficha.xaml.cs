@@ -14,6 +14,14 @@ public partial class Cadastra_Ficha : ContentPage
 
 private void ButtonCadastra_Ficha(object sender, EventArgs e)
 {
+    if (string.IsNullOrWhiteSpace(DescEntry.Text))
+    {
+     DisplayAlert("ERRO", "Preencha todos os campos antes de continuar.", "OK");
+        return; // Interrompe a execução da função
+    }
+
+
+
     var desc = DescEntry.Text.ToUpper();
 	var data = DateTime.Now.Date;
 

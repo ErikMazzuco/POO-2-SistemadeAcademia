@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebApp.Cadastrar_Exercicio"
+             Title="Cadastrar_Exercicio"
+              Padding="40">
+   
+
+   <ScrollView>
+
+    <VerticalStackLayout Spacing="50">
+
+        <Label 
+            FontSize="25"
+            TextColor="Red"
+            Text="CADASTRAR EXERCICIO"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            
+        <Frame BackgroundColor="#FF252525" BorderColor="Red" CornerRadius="5" Padding="10">
+
+            <StackLayout Spacing="20">
+
+                <StackLayout Spacing="2">
+                <Label Text ="NOME"/>
+                <Entry x:Name="NomeEntry" BackgroundColor="#FF333333" Placeholder="Digite o Nome do Exercico"/>
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+                    <Label Text="Grupo Muscular" />
+                    <Picker x:Name="GrupoMuscularPicker"  HeightRequest="70" BackgroundColor="#FF333333" Title="Selecione o Grupo Muscular">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Peito</x:String>
+                                <x:String>Costas</x:String>
+                                <x:String>Pernas</x:String>
+                                <x:String>Braços</x:String>
+                                <x:String>Ombros</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                
+
+                
+
+                <StackLayout Spacing="2">
+                <Label Text ="SÉRIES"/>
+                <Entry x:Name="SeriesEntry" Keyboard="Numeric" BackgroundColor="#FF333333" Placeholder="Digite o numero de Series"/>
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+                <Label Text ="REPETIÇÕES"/>
+                <Entry x:Name="RepeticoesEntry" Keyboard="Numeric" BackgroundColor="#FF333333" Placeholder="Digite o numero de Repeticoes"/>
+                </StackLayout>
+
+                <StackLayout Spacing="2">
+                <Label Text ="DESCRICÃO"/>
+                <Entry x:Name="DescricaoEntry" BackgroundColor="#FF333333" Placeholder="Digite uma descricao"/>
+                </StackLayout>
+
+                
+                
+                
+
+                
+                
+
+
+                 <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                    <Button  Text="CADASTRAR" Clicked="cadastrarExercicio"
+                        BackgroundColor="Green" 
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="Center" />
+
+                        
+
+
+                        <Button Text="CANCELAR" Clicked="ButtonCancel_Clicked"
+                        BackgroundColor="Red" 
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="Center" />
+                        
+
+                </HorizontalStackLayout>
+                <Label x:Name="ResultadoLabel1"/>
+            </StackLayout>
+        </Frame>
+    </VerticalStackLayout>
+  </ScrollView>
+
+
+
+</ContentPage>

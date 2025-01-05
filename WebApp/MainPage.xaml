@@ -148,6 +148,16 @@
                 TextColor="White"
                 />
 
+                <Button
+                Text="Cadastrar Exercicio"
+                Clicked="Cadastrar_Exercicio"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                BackgroundColor="red"
+                TextColor="White"
+                />
+
+
             </VerticalStackLayout>
 
             <VerticalStackLayout Padding="30" Spacing="25">

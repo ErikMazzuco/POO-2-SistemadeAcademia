@@ -55,6 +55,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Cadastrar_Atendente
 build_metadata.AdditionalFiles.TargetPath = Cadastrar_Atendente.xaml
 build_metadata.AdditionalFiles.RelativePath = Cadastrar_Atendente.xaml
 
+[C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/Cadastrar_Exercicio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Cadastrar_Exercicio.xaml
+build_metadata.AdditionalFiles.TargetPath = Cadastrar_Exercicio.xaml
+build_metadata.AdditionalFiles.RelativePath = Cadastrar_Exercicio.xaml
+
 [C:/Users/erikm/OneDrive/Documentos/GitHub/POO-2-SistemadeAcademia/WebApp/Cadastrar_Usuario.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WebApp.Cadastrar_Usuario.xaml
