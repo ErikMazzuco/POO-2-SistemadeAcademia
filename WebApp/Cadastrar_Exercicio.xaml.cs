@@ -7,6 +7,8 @@ public partial class Cadastrar_Exercicio : ContentPage
 	public Cadastrar_Exercicio()
 	{
 		InitializeComponent();
+		this.Title = "";
+		 NavigationPage.SetHasNavigationBar(this, false);
 	}
 
 
@@ -47,20 +49,21 @@ private async void cadastrarExercicio(object sender, EventArgs e)
 		var Exercicio = new Exercicio
 				{
 					Nome = NomeEntry.Text,
-					GrupoMuscular = GrupoMuscularPicker.Text,
+					GrupoMuscular = GrupoMuscularPicker.SelectedItem?.ToString(),
 					Series = int.Parse(SeriesEntry.Text),
 					Repeticoes = int.Parse(RepeticoesEntry.Text),
 					Descricao = DescricaoEntry.Text
 				};
 
-				// Inserir o user no banco
+				// Inserir o exercicio no banco
 				DatabaseHelper.InsertExercicio(Exercicio);
-
+				DisplayAlert("Cadastrado", "Exercicio cadastrado", "OK");
 			
 				NomeEntry.Text = string.Empty;
-				
-				
-
+				DescricaoEntry.Text = string.Empty;
+				GrupoMuscularPicker.SelectedItem = null;
+				SeriesEntry.Text = string.Empty;
+				RepeticoesEntry.Text = string.Empty;
 
 
     }
